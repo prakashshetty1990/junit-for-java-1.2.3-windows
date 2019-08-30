@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>AppCreditingSeleniumTest Test Report</title>
+    <meta name="description" content="Test report for the AppCreditingSeleniumTest project, generated at 2019-08-19 15:46:44">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      body {
+        width: 75%;
+        min-width: 800px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1 {
+        margin-top: 16px;
+      }
+      h1, h2, h3, p {
+        margin-bottom: 8px;
+      }
+      table {
+        width: 100%;
+        margin-bottom: 150px;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 1px 1px 1px 4px;
+		word-wrap: break-word;
+      }
+      tr {
+        //height: 1em;
+        background-color: #f2f2f2;
+      }
+      .status {
+        width: 50%;
+        max-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+	  .status-toggle {
+		white-space: nowrap;
+	  }
+	  input[type=checkbox]:checked + .status-toggle {
+		white-space: normal;
+		word-wrap: break-word;
+	  }
+      .alt-row {
+        background-color: #d9d9d9;
+      }
+      .empty {
+        background-color: white;
+      }
+      .test-class-name {
+        font-weight: bold;
+        padding-top: 8px;
+      }
+      .pass {
+        background-color: rgba(0, 255, 0, 0.5);
+        color: rgb(0, 100, 0);
+      }
+      .fail {
+        background-color: rgba(255, 0, 0, 0.5);
+        color: rgb(100, 0, 0);
+      }
+      .other-status {
+        background-color: rgba(255, 255, 0, 0.5);
+        color: rgb(100, 100, 0);
+      }
+	  input[type=checkbox] {
+		display: none;
+	  }
+	  .hidden {
+		display: none;
+	  }
+	  .shown {
+	    display: table-row-group;
+	  }
+	  label {
+	    cursor: pointer;
+	  }
+    </style>
+  </head>
+<body>
+    <header>
+        <h1>AppCreditingSeleniumTest Test Report</h1>
+		<h3>Generated: 2019-08-19 15:46:44</h3>
+		<p><a href="#" onclick="showAllTransactions()">Show all transactions</a></p>
+	</header>
+	<table>
+		<thead>
+			<tr class="empty">
+				<th colspan="2">Test Case</th>
+				<th>Status</th>
+				<th>Duration</th>
+				<th>Message</th>
+				<th>Log</th>
+				<th>Screenshot</th>
+			</tr>
+		</thead>
+		<tbody><tr class="alt-row"><td colspan="2"><label for="check0" title="Expand transactions">fAppCreditingValidation[1]</label></td><td class="pass">Pass</td><td>00:17.379</td><td class="status"></td><td><a href="fAppCreditingValidation[1]log.txt">Log</a></td><td><a href="fAppCreditingValidation[1]-1566209803.png">Screenshot</a></td></tr></tbody><tbody id="transactions0" class="hidden"><tr><td class="empty">&nbsp;&nbsp;&nbsp;</td><td>Login</td><td class="pass">Pass</td><td>00:05.625</td><td class="status"></td><td></td><td></td></tr><tr class="alt-row"><td class="empty">&nbsp;&nbsp;&nbsp;</td><td>verifyAppCreditingPage</td><td class="pass">Pass</td><td>00:00.435</td><td class="status"></td><td></td><td></td></tr><tr><td class="empty">&nbsp;&nbsp;&nbsp;</td><td>clickViewExistingContracts</td><td class="pass">Pass</td><td>00:01.434</td><td class="status"></td><td></td><td></td></tr><tr class="alt-row"><td class="empty">&nbsp;&nbsp;&nbsp;</td><td>verifyViewExistingPage</td><td class="pass">Pass</td><td>00:00.279</td><td class="status"></td><td></td><td></td></tr><tr><td class="empty">&nbsp;&nbsp;&nbsp;</td><td>enterContractDetails</td><td class="pass">Pass</td><td>00:02.793</td><td class="status"></td><td></td><td></td></tr><tr class="alt-row"><td class="empty">&nbsp;&nbsp;&nbsp;</td><td>verifyContractDetails</td><td class="pass">Pass</td><td>00:00.714</td><td class="status"></td><td></td><td></td></tr></tbody><input id="check0" type="checkbox" onclick="foldRow('transactions0');"><input id="check1" type="checkbox" onclick="foldRow('transactions1');">
+	</table>
+	<script>
+		function foldRow(toFold) {
+			var element = document.getElementById(toFold);
+			element.classList.toggle('hidden');
+			//element.classList.toggle('');
+			return;
+		}
+		
+		function showAllTransactions() {
+			var transactionBodys = document.getElementsByTagName('tbody');
+			for (var i = 0; i < transactionBodys.length; i++) {
+				if (transactionBodys[i].classList.contains('hidden')) {
+					transactionBodys[i].classList.remove('hidden');
+				}
+			}
+		}
+	</script>
+</body>
+</html>

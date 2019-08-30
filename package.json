@@ -1,0 +1,25 @@
+{
+  "name": "junit-for-java-parser",
+  "version": "1.2.3",
+  "description": "JUnit for Java Test Result Parser",
+  "main": "parser.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QASymphony/qtest-launch/tree/master/universal-agent/parsers/junit-for-java"
+  },
+  "dependencies": {
+    "archiver": "2.1.1",
+    "globby": "9.1.0",
+    "himalaya": "^1.1.0",
+    "html-to-json": "^0.6.0",
+    "jquery": "^3.4.1",
+    "node-dir": "^0.1.17",
+    "tabletojson": "^1.0.4",
+    "xml2js": "latest"
+  },
+  "author": "QASymphony",
+  "license": "ISC"
+}
