@@ -15,7 +15,7 @@
     "globby": "9.1.0",
     "himalaya": "^1.1.0",
     "html-to-json": "^0.6.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-dir": "^0.1.17",
     "tabletojson": "^1.0.4",
     "xml2js": "latest"
